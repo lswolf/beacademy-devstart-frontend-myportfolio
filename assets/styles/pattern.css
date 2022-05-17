@@ -92,7 +92,7 @@ h2 span {
   border-color:var(--second-color);
   outline-width: 0.2rem;
   outline:auto;
-  outline-offset: 0.2rem;
+  outline-offset: 0.3rem;
   transform: scale(1.04);
 }
 
