@@ -104,10 +104,13 @@ h2 span {
   font-weight: 300;
   font-family: Poppins;
 }
-.p {
+p {
   font-family: Poppins;
   color: var(--white-color);
   font-weight: 400;
   font-size: 1.6rem;
   line-height: 2.4rem;
+}
+p span{
+  color: var(--primary-color)
 }

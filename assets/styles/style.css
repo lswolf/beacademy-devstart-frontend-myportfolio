@@ -37,4 +37,22 @@
     align-content: center;
     gap: 3rem;
   }
- 
+ /* hero */
+  .hero{
+    background: url(../img/s-hero-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+  .hero .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40rem 0rem;
+  }
+  .hero .container .techs{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+  }
