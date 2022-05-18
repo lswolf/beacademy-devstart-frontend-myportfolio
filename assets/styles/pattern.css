@@ -87,6 +87,7 @@ h2 span {
   color: var(--primary-color);
   size: 20rem;
   transition: all 0.2s;
+  height: 3rem;
 }
 
 .menu-img:hover {

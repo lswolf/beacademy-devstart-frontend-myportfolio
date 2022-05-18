@@ -22,8 +22,9 @@
     <link rel="stylesheet" href="./assets/styles/pattern.css" />
     <link rel="stylesheet" href="./assets/styles/style.css" />
     <link rel="stylesheet" href="./assets/styles/responsive.css" />
-    <!--scripts-->
-    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+    
+    
 
 </head>
 <body>
@@ -111,13 +112,45 @@
     </section>
     <!--section Cases-->
     <section class="cases">
-    
+        <div class="container">
+            <h2>Cases de Sucesso<span>.</span></h2>
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide"><img src="./assets/img/case1.jpg"></div>
+                  <div class="swiper-slide"><img src="./assets/img/case2.jpg"></div>
+                  <div class="swiper-slide"><img src="./assets/img/case3.jpg"></div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+              </div>
+                
+            
+        </div>
     </section>
     <!--section contact-->
     <section class="contact">
     
     </section>
     <!--footer-->
-    
+    <footer>
+        <div class="container">
+            <p>feito com amor e carinho usando a base de Luan Santos <a href="https://github.com/lnmont">@Inmont</a> <br> Feito para o programa Devstart da Paylivre Via Be.academy </p>
+        </div>
+        
+    </footer>
+    <!--scripts-->
+    <!--only works inside body ** DO NOT MOVE ** (don't know why)-->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="./assets/js/js.js"></script>
+
+    <!-- <script>
+        var swiper = new Swiper(".mySwiper", {
+          navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+          },
+        });
+      </script> -->
 </body>
 </html>
