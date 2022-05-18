@@ -85,6 +85,7 @@ h2 span {
 .menu-img {
   display: flex;
   color: var(--primary-color);
+  size: 20rem;
   transition: all 0.2s;
 }
 
