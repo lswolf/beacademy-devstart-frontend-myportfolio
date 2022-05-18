@@ -155,7 +155,60 @@
   max-height: 60rem;
   padding: 5rem 2rem;
 }
-
+/* contact*/
+.contact .container{
+  display: flex;
+  padding: 5rem 2rem;
+}
+.contact .container .title{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.contact .container .title .tag{
+  max-width: 15rem;
+}
+.contact .container .form{
+  display: flex;
+  flex-direction: column;
+  padding: 2rem 2rem;
+  width: 100%;
+  max-width: 100rem;
+  
+}
+.contact .container .form .msg{
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 2rem;
+  width: 100%;
+ 
+}
+.contact .container .form .msg input{
+  border-width: 0.2Wrem;
+  border-style: solid;
+  border-color: var(--primary-color);
+  background-color: var(--semi-black);
+  color: var(--white-color);
+  padding: 2rem;
+  margin: 1rem;
+  font-family: Poppins;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+}
+.contact .container .form .msg textarea{
+  border-width: 0.2Wrem;
+  border-style: solid;
+  border-color: var(--primary-color);
+  background-color: var(--semi-black);
+  color: var(--white-color);
+  padding: 2rem;
+  margin: 1rem;
+  font-family: Poppins;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+}
 /*Footer*/
 
 footer {
