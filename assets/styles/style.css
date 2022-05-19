@@ -39,7 +39,7 @@
   }
  /* hero */
   .hero{
-    background: url(../img/s-hero-bg.jpg);
+    background: url(../img/4373018.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -70,6 +70,7 @@
   }
   .hero .container .techs img{
     transition: all 0,4s;
+    width: 12rem;
   }
   .hero .container .techs img:hover{
     transform: translateY(-1rem);
@@ -148,6 +149,9 @@
   gap: 1rem;
   margin-top: 3.2rem;
   max-width: 15rem;
+}
+.about .container img {
+  max-width: 35rem;
 }
 /*cases*/
 .cases .container{
