@@ -40,7 +40,9 @@
     margin: 0 auto;
   }
 
-  
+  .hero .container .techs{
+    flex-direction: column;
+  }
   .success .container .block .top h3 {
     margin-bottom: 0;
   }
@@ -148,8 +150,7 @@
     align-items: center;
   }
 
-  header .container nav .menu li,
-  header .container nav .menu-img {
+  header .container nav .menu li {
     margin: 0 auto;
   }
 
