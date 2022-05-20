@@ -1,36 +1,36 @@
 @media (max-width: 1260px) {
-  .s-success .container {
+  .success .container {
     flex-direction: column;
   }
 
-  .s-success .container .title-success {
+  .success .container .title {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
   }
-  .s-success .container .title-success h2 {
+  .success .container .title h2 {
     text-align: center;
   }
 }
 @media (max-width: 1133px) {
-  .s-about .container {
+  .about .container {
     flex-direction: column;
     align-items: center;
     gap: 3.2rem;
   }
-  .s-about .container .about-me h2 {
+  .about .container .about-me h2 {
     text-align: center;
   }
-  .s-about .container .about-me p {
+  .about .container .about-me p {
     text-align: center;
   }
-  .s-about .container .about-me ul {
+  .about .container .about-me ul {
     justify-content: center;
   }
 }
 @media (max-width: 950px) {
-  .s-success .container .cards {
+  .success .container .block {
     flex-direction: column;
     gap: 2.4rem;
     align-items: center;
@@ -40,47 +40,35 @@
     margin: 0 auto;
   }
 
-  .s-success .container .cards .card {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    margin-right: 0;
-    max-width: 100%;
-  }
-
-  .s-success .container .cards .card .card-title h3 {
+  
+  .success .container .block .top h3 {
     margin-bottom: 0;
   }
-  .s-cases .container .title-cases h2 {
+  .cases .container h2 {
     text-align: center;
   }
-  .s-cases .container .cases {
+  .cases .container {
     flex-direction: column;
     gap: 4rem;
   }
 
-  .s-contact .container {
+  .contact .container {
     flex-direction: column;
     align-items: center;
     justify-content: center;
   }
 
-  .s-contact .container .title-contact {
+  .contact .container .title {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     margin-bottom: 4rem;
   }
-  .s-contact .container .title-contact form {
+  .contact .container .form {
     display: flex;
     flex-direction: column;
     align-items: center;
-  }
-
-  .input-button {
-    justify-content: center;
   }
 }
 
@@ -107,7 +95,7 @@
 
   header .container nav .menu,
   header .container nav .btn-primary,
-  header .container nav .menu-social {
+  header .container nav .menu-img {
     display: none;
   }
 
@@ -128,7 +116,7 @@
 
   header .container nav .menu,
   header .container nav .btn-primary,
-  header .container nav .menu-social {
+  header .container nav .menu-img {
     display: flex;
   }
   header .container .open-menu {
@@ -161,7 +149,7 @@
   }
 
   header .container nav .menu li,
-  header .container nav .menu-social {
+  header .container nav .menu-img {
     margin: 0 auto;
   }
 
@@ -174,22 +162,25 @@
 }
 
 @media (max-width: 624px) {
-  .s-hero {
+  .hero {
     background-position: center center;
   }
-
-  .s-success .container .cards .card {
+  .hero .container .techs{
     flex-direction: column;
   }
 
-  .s-success .container .cards .card .card-title {
+  .success .container .block {
+    flex-direction: column;
+  }
+
+  .success .container .block .top {
     padding: 0;
   }
-  .s-success .container .cards .card .card-title h3 {
+  .success .container .block .top h3 {
     text-align: center;
   }
 
-  .s-success .container .cards .card .card-info p {
+  .success .container  .block .botton p {
     text-align: center;
   }
 }
