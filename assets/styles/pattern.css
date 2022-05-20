@@ -88,14 +88,15 @@ h2 span {
   size: 20rem;
   transition: all 0.2s;
   height: 3rem;
+ 
 }
 
 .menu-img:hover {
   border-color:var(--second-color);
-  outline-width: 0.2rem;
   outline:auto;
-  outline-offset: 0.3rem;
+  outline-offset: 0.6rem;
   transform: scale(1.04);
+  
 }
 
 .tag {
