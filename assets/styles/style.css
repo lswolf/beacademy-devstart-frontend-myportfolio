@@ -87,6 +87,13 @@
     gap: 3.5rem;
     padding: 10rem 0rem;
   }
+  .success .container .title{
+    display: flex;
+    flex-direction: column;
+  }
+  .success .container .title .tag{
+    max-width: 17rem;
+  }
   .success .container .title h2{
     font-weight: 700;
   }
