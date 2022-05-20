@@ -160,6 +160,12 @@
   padding: 5rem 2rem;
 }
 /* contact*/
+.contact{
+  background-image: url(../img/contact-us-background-businesses-email-call-message-landing-page-cover-icon-131608659.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
 .contact .container{
   display: flex;
   padding: 5rem 2rem;
@@ -171,6 +177,10 @@
 }
 .contact .container .title .tag{
   max-width: 15rem;
+}
+.contact .container .title a{
+  max-width: 30rem;
+  display: flex;
 }
 .contact .container .form{
   display: flex;
